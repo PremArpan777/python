@@ -1,0 +1,67 @@
+a=40
+b=50
+add=a+b
+sub=a-b
+mul=a*b
+div=a/b
+mod=a%b
+fd=a//b
+exp=a**b
+print(add)
+print(sub)
+print(mul)
+print(div)
+print(mod)
+print(fd)
+print(exp)
+
+
+----------------------------------------
+a=10
+b=7
+c=10
+print(a==b)
+print(a==c)
+
+print(a<b)
+print(b<a)
+
+print(a>b)
+print(b>a)
+
+print(a!=b)
+print(b!=a)
+
+print(a>=b)
+print(b>=a)
+print(a<=c)
+--------------------------------
+x=50
+y=100
+temp=x
+x=y
+y=temp
+
+print(x)
+print(y)
+------------------------------
+A = int(input("Enter a number: "))
+if (A % 2) == 0:
+   print("it is Even".format(A))
+else:
+   print("it is Odd".format(A))
+----------------------------
+l=eval(input('enter length of rectangle:'))
+b=eval(input('enter length of rectangle:'))
+area=l*b
+perimeter=2*(l+b)
+print("area of rectangle=",area)
+print("perimeter of rectangle=",perimeter)
+---------------------------
+diam=int(input("enter diameter of a circle"))
+radii=diam/2
+print("the radious of the circle is",radii)
+------------------------
+
+
+
